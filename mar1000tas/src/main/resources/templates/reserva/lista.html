@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>MAR1000TAS</title>
+</head>
+<body>
+    <header>   
+        <h1 class="text-center">MAR<span style="color: #4781b7;">1000</span>TAS</h1>
+    </header>
+    <nav>
+        <div id="marmitas">
+            <br>
+            <a href="/marmitas/listar" style="text-decoration: none;"><div style="width: 15vw; background-color:#334c64;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Marmitas</p></div></a>
+            <a href="/marmitas/cadastrar"style="text-decoration: none;"><div id="cadastrarMarmita"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+        <div id="adms">
+            <a href="/administradores/listar"style="text-decoration: none;"><div style="width: 15vw; background-color: #334c64;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Administradores</p></div></a>
+            <a href="/administradores/cadastrar"style="text-decoration: none;"><div id="cadastrarAdm"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+        <div id="users">
+            <a href="/usuarios/listar" style="text-decoration: none;"><div style="width: 15vw; background-color: #334c64;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Usuários</p></div></a>
+            <a href="/usuarios/cadastrar" style="text-decoration: none;"><div id="cadastrarUser"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+        <div id="reservas">
+            <a href="/reservas/listar" style="text-decoration: none;"><div style="width: 15vw; background-color: #0084ff;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Reservas</p></div></a>
+            <a href="/reservas/cadastrar"style="text-decoration: none;"><div id="cadastrarReserva"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+    </nav>
+    <main>
+        <h2 class="text-center" style="color:#334c64">Reservas</h2>
+        <br>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Prontuário do Usuário</th>
+                    <th>ID da Marmita</th>
+                    <th>Data</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="r:${reservas}">
+                    <td th:text="${r.id}"></td>
+                    <td th:text="${r.usuario.getProntuario()}"></td>
+                    <td th:text="${r.marmita.getId()}"></td>
+                    <td th:text="${r.dataHora}"></td>
+                    <td>
+                        <a th:href="@{/reservas/editar/{id}(id=${r.id})}" role="button" class="btn btn-primary">
+                            Editar
+                            <span title="Editar" aria-hidden="true"></span>
+                        </a>
+                    </td>
+                    <td>
+                        <button th:id="${'btn_reservas/excluir/'+r.id}" type="button" data-toggle="modal" data-target="#myModal" class="btn btn-danger">
+                            Excluir
+                            <span title="Exclusão desabilitada" aria-hidden="true"></span>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="myModal" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Atenção</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Clique em Ok para proceder com a exclusão.&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button id="ok_confirm" type="button" class="btn btn-primary">Ok</button>
+                    </div>
+                </div>    
+            </div>  
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        var url='';
+    
+        $('button[id*="btn_"]').click(function(){
+            url="http://localhost:8080/"+$(this).attr('id').split("_")[1];
+        });
+    
+        $('#ok_confirm').click(function(){
+            document.location.href=url;
+        });
+        $(function() {
+            $('[data-toggle="popover"]').popover();
+        });
+    
+        $(document).ready(function(){
+            $(".navbar-toggle").click(function(){
+                $(".sidebar").toggleClass("sidebar-open");
+            })
+        });
+    
+    </script>
+</body>
+</html>

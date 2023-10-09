@@ -1,0 +1,146 @@
+2023-08-11 12:07:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-08-11 12:10:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DEPARTAMENTO" not found; SQL statement:
+SELECT * FROM DEPARTAMENTO [42102-214]
+2023-08-11 12:19:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-08-25 09:24:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-08-25 10:08:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-08-25 10:09:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-08-25 10:10:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 09:57:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:07:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:09:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:09:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:10:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:11:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-01 10:11:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:12:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:13:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:14:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:19:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-01 10:20:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 10:20:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-01 11:00:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 11:01:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-01 11:04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 11:26:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 11:45:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-01 11:47:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) [*]DEFAULT 0.00"; SQL statement:
+alter table if exists funcionarios alter column salario set data type DECIMAL(7,2) DEFAULT 0.00 [42000-214]
+2023-09-28 16:16:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-28 16:33:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-28 16:41:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-28 17:29:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-28 17:29:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 10:12:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 10:45:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 10:46:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 10:56:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 10:59:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 11:09:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 11:18:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 11:35:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 11:36:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 11:36:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 12:02:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 12:03:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 12:04:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 20:34:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:12:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:13:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:14:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:16:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:16:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:22:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:22:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:24:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:25:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:27:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:40:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:41:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:41:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:42:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:42:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-29 21:42:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-30 08:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]

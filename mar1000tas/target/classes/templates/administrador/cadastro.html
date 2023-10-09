@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>MAR1000TAS</title>
+</head>
+<body>
+    <header>   
+        <h1 class="text-center">MAR<span style="color: #4781b7;">1000</span>TAS</h1>
+    </header>
+    <nav>
+        <div id="marmitas">
+            <br>
+            <a href="/marmitas/listar" style="text-decoration: none;"><div style="width: 15vw; background-color:#334c64;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Marmitas</p></div></a>
+            <a href="/marmitas/cadastrar"style="text-decoration: none;"><div id="cadastrarMarmita"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+        <div id="adms">
+            <a href="/administradores/listar"style="text-decoration: none;"><div style="width: 15vw; background-color: #0084ff;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Administradores</p></div></a>
+            <a href="/administradores/cadastrar"style="text-decoration: none;"><div id="cadastrarAdm"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+        <div id="users">
+            <a href="/usuarios/listar" style="text-decoration: none;"><div style="width: 15vw; background-color: #334c64;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Usuários</p></div></a>
+            <a href="/usuarios/cadastrar" style="text-decoration: none;"><div id="cadastrarUser"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+        <div id="reservas">
+            <a href="/reservas/listar" style="text-decoration: none;"><div style="width: 15vw; background-color: #334c64;"><p class="text-white" style="margin-left: 10px; font-size: 18px;">Reservas</p></div></a>
+            <a href="/reservas/cadastrar"style="text-decoration: none;"><div id="cadastrarReserva"><p class=" text-white" style="margin-left: 20px;">Adicionar</p></div></a>
+        </div>
+    </nav>
+    <main>
+        <h2 class="text-center" style="color:#334c64">Cadastrar Administrador</h2>
+        <br>
+        <form style="width: 60vw; margin: auto;" th:action="${admin.id==null}?@{/administradores/salvar}:@{/administradores/editar}" th:object="${admin}" method="POST">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome:</label>
+              <input type="text" class="form-control" id="nome"  placeholder="Digite seu nome completo" autofocus="autofocus" name="nome" th:field="*{nome}"/>
+            </div>
+            <div class="mb-3">
+                <label for="prontuario" class="form-label">Prontuário:</label>
+                <input type="text" class="form-control" id="prontuario"  placeholder="Digite seu prontuário" name="prontuario" th:field="*{prontuario}"/>
+            </div>
+            <div class="mb-3" style="width: 25vw;">
+                <label for="senha" class="form-label">Senha:</label>
+                <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" name="senha" th:field="*{senha}"/>
+              </div>
+              <input type="hidden" id="id" name="id" th:field="*{id}"/>
+
+            <button type="submit" class="btn btn-primary">Salvar</button>
+          </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
